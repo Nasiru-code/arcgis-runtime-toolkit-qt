@@ -42,8 +42,8 @@ include(path/to/toolkitqml.pri)
 - in `main.cpp` (inside the main function) call the registration function.
 
 ```cpp
-QQmlApplicationEngine engine; // The engine driving your QML application.
-Esri::ArcGISRuntime::Toolkit::registerComponents(engine);
+QQmlApplicationEngine appEngine; // The engine driving your QML application.
+Esri::ArcGISRuntime::Toolkit::registerComponents(appEngine);
 ```
 
 #### Using a tool from the toolkit (toolkitqml.pri)
